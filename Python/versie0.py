@@ -5,7 +5,7 @@ def move(command):
     print(json.dumps(record))
     sys.stdout.flush()
 
-name = sys.argv[1]
+name = 1
 
 for line in sys.stdin:
     state = json.loads(line)
